@@ -12,7 +12,7 @@ partInventory:
   enabled: true
   replicaCount: 1
   image:
-    repository: ram1uj/part-inventory-service
+    repository: 9380135656/part-inventory-service
     tag: 8
     pullPolicy: Always
   service:
