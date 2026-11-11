@@ -9,13 +9,13 @@ spec:
     server: https://kubernetes.default.svc
   sources:
     - path: inventory-app-chart
-      repoURL: https://github.com/ramanujds/gitops-repo-forvia
+      repoURL: https://github.com/Akash-162000/gitops-repo-forvia
       targetRevision: HEAD
       helm:
         releaseName: inventory-service
         valueFiles:
           - $values/environments/prod/values/inventory-values.yaml
-    - repoURL: https://github.com/ramanujds/gitops-repo-forvia
+    - repoURL: https://github.com/Akash-162000/gitops-repo-forvia
       targetRevision: HEAD
       ref: values
   project: default
